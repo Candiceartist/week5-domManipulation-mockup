@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="stlye.css" />
+  </head>
+  <body>
+    <div class="buttons">
+      <button onclick="mkSpring()" class="seasonBtn1">Spring</button>
+      <button onclick="mkSummer()" class="seasonBtn2">Summer</button>
+      <button onclick="mkAutumn()" class="seasonBtn3">Autumn</button>
+      <button onclick="mkWinter()" class="seasonBtn4">Winter</button>
+    </div>
+    <div class="display">
+      <div class="news">
+        <div class="text"></div>
+        <div class="temp"></div>
+      </div>
+      <img
+        src="https://i.pinimg.com/originals/dd/48/1d/dd481d7a9aacc99c9b44423eb97cbc4b.gif"
+        alt=""
+        class="showSeason"
+      />
+    </div>
+    <hr />
+    <div class="spacer"></div>
+    <div class="buttons">
+      <button onclick="printDog()" class="seasonBtn1">Dogs</button>
+      <button onclick="printCat()" class="seasonBtn2">Cats</button>
+      <button onclick="printBird()" class="seasonBtn3">Birds</button>
+      <button onclick="printFish()" class="seasonBtn4">Fish</button>
+    </div>
+    <div class="display">
+      <div class="news">
+        <div class="textPet"></div>
+        <div class="lifeSpan"></div>
+      </div>
+      <img
+        src="http://media1.giphy.com/media/5xtDarrRvnz4dQjbY64/giphy.gif"
+        alt=""
+        class="showPet"
+      />
+    </div>
+    <script src="app.js" async defer></script>
+  </body>
+</html>
